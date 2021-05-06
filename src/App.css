@@ -2,26 +2,18 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  height: 10vh;
+  width: 8vw;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  padding-top: 2vh;
 }
 
 .App-link {
@@ -35,4 +27,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.landing {
+  background-image: url("https://image.freepik.com/free-photo/top-view-indian-food-yellow-background_23-2148747656.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height: 100vh;
+  width: 100vw;
 }
